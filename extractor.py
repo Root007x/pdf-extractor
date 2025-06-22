@@ -86,3 +86,5 @@ for old_key, new_key in key_mapping.items():
 # Save the organized data as a JSON file
 with open("output.json", "w") as f:
     json.dump(organized_data, f, indent=4)
+
+
